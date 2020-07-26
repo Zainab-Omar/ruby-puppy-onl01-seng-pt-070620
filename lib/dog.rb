@@ -9,10 +9,9 @@ class Dog
     @@all
   end
   def self.print_all
-   puts "#{@@all.to_s}"
- # @@all.each do |dog_name|
-  # puts "#{dog_name.to_s}
-  #end
+ @@all.each do |dog_name|
+   
+  
 end
 #def self.save (name)
  # @name=name
