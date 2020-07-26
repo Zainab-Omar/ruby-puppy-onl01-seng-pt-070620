@@ -13,7 +13,7 @@ class Dog
    puts dog_name.name
  end
 end
-def self.save (name)
+def self.save
  @@all << self
 end
 def self.clear_all
